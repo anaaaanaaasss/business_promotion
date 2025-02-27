@@ -234,10 +234,6 @@ button {
     justify-content: space-between;
 }
 
-.container-left {
-
-}
-
 .management-list-bold {
     font-weight: 600;
     color: #22343d;
@@ -256,12 +252,10 @@ button {
     line-height: 1.62;
     color: #22343d;
     max-width: 445px;
+    margin-bottom: 30px;
 }
 
-.management-list {}
-
-
-.management-list-items:not:(:last-child) {
+.management-list-items:not:last-child {
     margin-bottom: 25px;
 }
 
@@ -270,6 +264,7 @@ button {
     font-size: 16px;
     line-height: 1.62;
     color: #22343d;
+    margin-bottom: 12px;
 }
 
 .management-list-text {
@@ -278,11 +273,120 @@ button {
         line-height: 1.62;
         color: #22343d;
         max-width: 410px;
+        margin-bottom: 25px;
 }
 
 
 /* #endregion business management */
 
+/* #region support */
+
+.support {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.support-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-support-list {
+    margin-left: 84px; 
+}
+
+.support-list-bold {
+font-weight: 600;
+color: #22343d;
+margin-bottom: 8px;
+}
+
+.support-title {
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.support-title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    max-width: 445px;
+}
+.support-list {
+    max-width: 412px;
+    margin-top: 30px;
+}
+
+.support-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 25px;
+}
+
+/* #endregion support */
+
+
+/* #region collaborative */
+
+.collaborative {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.collaborative-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collaborative-list-bold {
+    font-weight: 600;
+    color: #22343d;
+    margin-bottom: 8px;
+}
+
+.collaborative-title {
+    font-size: 32px;
+    color: #22343d;
+    margin-bottom: 25px;
+}
+
+.collaborative-title-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    max-width: 434px;
+    margin-bottom: 30px;
+}
+
+.collaborative-list-items:not:last-child {
+    margin-bottom: 25px;
+}
+
+.collaborative-list-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    margin-bottom: 12px;
+}
+
+.collaborative-list-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    max-width: 410px;
+    margin-bottom: 25px;
+}
+
+/* #endregion collaborative */
 
 /* #region staff */
 
