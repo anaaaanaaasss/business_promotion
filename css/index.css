@@ -73,9 +73,7 @@ button {
     display: block;
 }
 
-
-
-.current {
+.nav-item-link.current {
     font-weight: 600;
 }
 
